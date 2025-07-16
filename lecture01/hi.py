@@ -19,7 +19,6 @@ class StudentManager:
     def display_all_students(self):
         for student in self.students:
             student.display_info()
-
 student1 = Student(1, "김철수", 20)
 student2 = Student(2, "김영희", 21)
 student3 = Student(3, "박지민", 19)
